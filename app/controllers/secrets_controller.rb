@@ -1,5 +1,6 @@
 class SecretsController < ApplicationController
 
+    # run the method 'require_login', which is defined below
     before_action :require_login
 
     def show
